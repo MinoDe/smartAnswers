@@ -16,34 +16,43 @@
         tools:ignore="UselessParent" >
 
         <TextView
-            android:id="@+id/textView1"
+            android:id="@+id/question"
+            android:layout_marginTop="300px"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="How is the class ? Give feedback" />
+            android:text="What does CIS stand For?" />
 
         <RadioButton
             android:id="@+id/radioButton1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="option1" />
+            android:text="Computer Information Sciences" />
 
         <RadioButton
             android:id="@+id/radioButton2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="option1" />
+            android:text="Computer Idiot Sciences" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="option1" />
+            android:text="Calculus Information Sciences" />
 
         <RadioButton
             android:id="@+id/radioButton4"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="option1" />
+            android:text="None of the Above" />
+        
+         <TextView
+            android:id="@+id/check"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Correct Answer"
+            android:visibility="visible" />
+         
 
         <Button
             android:id="@+id/submit_button"
